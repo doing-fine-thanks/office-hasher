@@ -46,11 +46,11 @@ Once the server is running, you can start requesting immediately.
 ### Making a request:
 ```bash
 $ curl -X POST http://127.0.0.1:8000/hash -d '{"payload":"hell yeah!"}' -H 'Content-Type: application/json'
-{"character":"Toby","line":"Oh.","episode":6,"season":8}%       
+{"character":"Toby","line":"Oh.","episode":6,"season":8}       
 ```
 
 If you don't want to generate a payload, you can also get a random quote:
 ```bash
 $ curl http://127.0.0.1:8000/random
-{"character":"Ryan","line":"We're never going to get what need from that guy. [still shaking head, pats Kevin on the shoulder and walks out of the kitchen]","episode":2,"season":5
+{"character":"Ryan","line":"We're never going to get what need from that guy. [still shaking head, pats Kevin on the shoulder and walks out of the kitchen]","episode":2,"season":5}
 ```
